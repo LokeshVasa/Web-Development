@@ -2,27 +2,44 @@
 <html>
     <head>
         <link href="styl1.css" rel="stylesheet">
-        <tittle><center><bold><h1>FORM</h1></bold></center></tittle>
+        
+        <title>FORM</title>
     </head>
     <body>
-        <form>
-            <label for="s">NAME</label>
-            <input type="text" id="s"placeholder="enter ur name"><br><br>
-            
-            <label for="a">ID</label>
-            <input type="text" id="a"placeholder="enter ur id number"><br><br>
-
-            <label for="b">CLASS</label>
-            <input type="text" id="b"placeholder="enter ur class"><br><br>
-
-            
-            <label>GENDER</label><br><br>
-            <label>MALE</label>
-            <input type="o">
-            <label>FEMALE</label>
-            <input type="radio">
-            <br><center><input type="submit"></center>
-            <a href="http://127.0.0.1:5500/Basics.html/1.html">Click Here</a>
+        <center><h1>FORM</h1></center>              
+        <form action="1.html" method="post">
+            <table>
+                <tr>
+                    <td><label for="s">NAME</label></td>
+                    <td><input type="text" id="s" name="name" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="a">ID</label></td>
+                    <td><input type="text" id="a" placeholder="Enter your ID number"></td>
+                </tr>
+                <tr>
+                    <td><label for="b">CLASS</label></td>
+                    <td><input type="text" id="b" placeholder="Enter your class"></td>
+                </tr>
+                <tr>
+                    <td><label>GENDER</label></td>
+                    <td>
+                        <div class="radio-group">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">MALE</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">FEMALE</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="submit-container">
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <center><a href="http://127.0.0.1:5500/Basics.html/1.html">Click Here</a></center>
         </form>
     </body>
 </html>
