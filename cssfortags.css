@@ -1,0 +1,22 @@
+head{
+    text-align: end;
+}
+body{
+    background-color: rgb(192, 241, 225);
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    color: rgb(170, 19, 239);
+}
+p{
+  text-align: center;  
+  text-decoration-style: double;
+  text-emphasis-color: rgb(247, 17, 17);
+  font-family: 'Times New Roman', Times, serif;
+  font-display: ;
+  color: rgb(249, 131, 21);
+}
+a{
+    color: red;
+    font-size: larger;
+}
