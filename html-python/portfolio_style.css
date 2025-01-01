@@ -1,0 +1,38 @@
+.strip{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #7600bc;
+    color: white;
+    position: relative;
+
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+.email_image{
+    position: relative;
+    width: 20px;
+    padding-right: 2px;
+}
+
+.profile_details{
+    padding-left: 2%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    left: 45%;
+    position: relative;
+    
+}
+
+.menu_item{
+    padding-right: 90px;
+    padding-top: 20px;
+}
