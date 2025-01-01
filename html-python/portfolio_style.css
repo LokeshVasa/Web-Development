@@ -29,10 +29,16 @@
     text-align: end;
     left: 45%;
     position: relative;
-    
 }
 
 .menu_item{
-    padding-right: 90px;
+    padding-right: 80px;
     padding-top: 20px;
+}
+.pic_work{
+   background-color: aliceblue;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
 }
