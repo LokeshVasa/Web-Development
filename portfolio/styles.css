@@ -1,0 +1,95 @@
+    .strip{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        background-color: #7600bc;
+        color: white;
+        position: relative;
+
+    }
+    .contact_image{
+        width: 25px;
+        margin-right: 5px;
+        float: left
+    }
+
+    .email{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .email_image{
+        position: relative;
+        width: 20px;
+        padding-right: 2px;
+    }
+
+    .profile_details{
+        padding-left: 2%;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        text-align: end;
+        left: 45%;
+        position: relative;
+    }
+
+    .menu_item{
+        padding-right: 80px;
+        padding-top: 20px;
+    }
+    .pic_work{
+    background-color: aliceblue;
+    }
+    .intro{
+        display: flex;
+        flex-direction: row;
+    }
+    .Skills{
+        font-size: 23px;
+        padding-left: 2%;
+        color: #7600bc;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .paragraph{
+        margin-top: 8% ;
+    }
+    .all_skills{
+        margin:5% ;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .project_session{
+        padding-left: 2%;
+        color: #7600bc;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 23px;
+    }
+    .Stegonography{
+        padding-left: 4%;
+        color: black;
+        text-align: start;
+    }
+    hr{
+        align-items: center;
+    }
+    .Stegonography_des{
+        
+        color: rgb(128, 128, 128);
+
+    }
+    .Sentiment_Analyzer{
+        padding-left: 4%;
+        color: black;
+        text-align: start;
+
+    }
+    .Sentiment_Analyzer_des{
+        color: rgb(128, 128, 128);
+    }
+    
