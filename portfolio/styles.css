@@ -2,7 +2,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box; /* Ensure consistent box-sizing */
-        font-family: cursive;
+        font-family: 'Times New Roman', Times, serif;
     }
   
     .strip{
@@ -12,6 +12,9 @@
         background-color: #7600bc;
         color: white;
         position: relative;
+        
+        justify-content: left
+        ;
 
     }
     .contact_image{
@@ -110,7 +113,7 @@
         color: rgb(243, 241, 241);
     }
 
-    .all_skills div{
+    .all_skills a{
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
         width: 16%;
         display: flex;
@@ -119,9 +122,10 @@
         transition-duration: 0.2s;
     }
 
-    .all_skills div:hover{
+    .all_skills a:hover{
         scale: 1;
         transition-duration: 0.2s;
+        border-radius: 10px;
     }
 
     .all_skills div img{
