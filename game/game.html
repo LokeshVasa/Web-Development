@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 300px;
+            background-color:rgb(132, 218, 218)
+        }
+        #result {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        input{
+            border-radius: 10%;
+            width: 250px;
+            leng
+        }
+        reset{
+            font-size: 20px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess a Random Number (0-100)</h1>
+    <input type="number" id="userGuess" min="0" max="100">
+    <button onclick="checkGuess()">Guess</button>
+    <p id="result"></p>
+
+    <script>
+        const randomNumber = Math.floor(Math.random() * 101);
+
+        function checkGuess() {
+            const userGuess = document.getElementById("userGuess").value;
+            const result = document.getElementById("result");
+            
+            if (parseInt(userGuess) === randomNumber) {
+                result.textContent = "CORRECT! You guessed the right number.";
+                result.style.color = "green";
+            } else {
+                result.textContent = "Try Again! The number was " + randomNumber;
+                result.style.color = "red";
+            }
+        }
+    </script>
+</body>
+<div id="reset">
+    <h1>RESET</h1>
+</div>
+</html>
