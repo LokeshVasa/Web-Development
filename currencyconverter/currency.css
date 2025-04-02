@@ -1,0 +1,16 @@
+.container{
+    background: #fbf5f5;
+    padding: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+
+.enter{
+    align-items:start;
+}
